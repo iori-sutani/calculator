@@ -1,0 +1,30 @@
+@forward "../../settings/color";
+@use "../../settings/color" as color;
+
+.p-home {
+    &-main {
+        max-width: 400px;
+        margin: 40px auto;
+        padding: 16px;
+        &__result {
+            text-align: right;
+            font-size: 3rem;
+            padding: 24px;
+            background-color: #1c1c1c;
+            border-radius: 10px;
+            margin-bottom: 20px;
+          }
+        
+          &__calcu {
+            &-list {
+              display: grid;
+              grid-template-columns: repeat(4, 1fr);
+              gap: 16px;
+            }
+        
+              &-item {
+                list-style: none;
+              }
+          }
+    }
+}
