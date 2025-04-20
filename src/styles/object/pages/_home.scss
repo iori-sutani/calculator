@@ -5,12 +5,12 @@
     &-main {
         max-width: 400px;
         margin: 40px auto;
-        padding: 16px;
+        padding: 1rem;
         &__result {
             text-align: right;
             font-size: 3rem;
-            padding: 24px;
-            background-color: #1c1c1c;
+            padding: 1.5rem;
+            background-color: color.$color-result;
             border-radius: 10px;
             margin-bottom: 20px;
           }
@@ -19,7 +19,7 @@
             &-list {
               display: grid;
               grid-template-columns: repeat(4, 1fr);
-              gap: 16px;
+              gap: 1rem;
             }
         
               &-item {
