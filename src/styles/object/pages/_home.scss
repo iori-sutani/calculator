@@ -4,8 +4,10 @@
 .p-home {
     &-main {
         max-width: 400px;
-        margin: 40px auto;
-        padding: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+        height: 100vh;
+        padding:  2rem;
         &__result {
             text-align: right;
             font-size: 3rem;
@@ -16,13 +18,13 @@
           }
         
           &__calcu {
-            &-list {
+            &--list {
               display: grid;
               grid-template-columns: repeat(4, 1fr);
               gap: 1rem;
             }
         
-              &-item {
+              &--item {
                 list-style: none;
               }
           }
