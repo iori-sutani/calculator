@@ -17,6 +17,7 @@ git clone https://github.com/iori-sutani/calculator.git
 cd calculator
 npm install
 npm run dev
+```
 
 ## 完成イメージ
 /public/images/calcu-img.png
