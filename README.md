@@ -20,7 +20,7 @@ npm run dev
 ```
 
 ## 完成イメージ
-/public/images/calcu-img.png
+/public/images/visual-img.png
 
 
 
