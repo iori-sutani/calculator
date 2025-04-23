@@ -13,8 +13,8 @@ React で作った iPhone風の電卓アプリです。
 ## 🚀 起動方法
 
 ```bash
-git clone https://github.com/iori-sutani/Calculator.git
-cd Calculator
+git clone https://github.com/iori-sutani/calculator.git
+cd calculator
 npm install
 npm run dev
 
