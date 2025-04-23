@@ -1,0 +1,13 @@
+//foundationsフォルダ
+@use "./foundation/reset";
+
+// objectフォルダ
+//pagesフォルダ
+@use "./object/pages/home";
+
+//componentsフォルダ
+@use "./object/component/button";
+
+// settingsフォルダ
+@use "./settings/color";
+

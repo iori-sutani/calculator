@@ -1,0 +1,29 @@
+@forward "../../settings/color";
+@use "../../settings/color" as color;
+
+.c-button {
+    width: 70px;
+    height: 70px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 50%;
+    background-color: color.$color-btn;
+    color: color.$color-text;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.2s;
+  
+    &:hover {
+      opacity: 0.8;
+    }
+
+    &-gray {
+      background-color: color.$color-gray-btn;
+    }
+  
+    &-orange {
+      background-color: color.$color-btn-orange;
+    }
+  }
